@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from group import Group
 
 
-class test_add_group(unittest.TestCase):
+class Test_add_group(unittest.TestCase):
     def setUp(self):
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(30)
